@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Jnanagni- Fire of Wisdom</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title1">God of War Ascension</string>
+    <string name="title2">Assassin\'s Creed III</string>
+    <string name="title3">Hitman Absolution</string>
+    <string name="title4">Dishonored</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spitems">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <string name="about">Gurukula Kangri Vishwavidhalya is not just a mere institution but its a academy</string>
+
+
+</resources>

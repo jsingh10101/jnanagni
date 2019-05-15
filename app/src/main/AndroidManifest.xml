@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cse.fet.gurukul">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_jk"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_jnanagni_round"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="cse.fet.gurukul.FrontActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="cse.fet.gurukul.Register.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Register.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Gallery.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Cultural.CulturalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.SponsorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Register.ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Register.SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.EventDetail1.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Register.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.About.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Contact.ContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme.Base" />
+        <activity
+            android:name="cse.fet.gurukul.MegaEvent.MegaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Sport.SportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.Game.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.NonTech.NonTechActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.TechActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="cse.fet.gurukul.Technical.TechnicalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cse.fet.gurukul.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

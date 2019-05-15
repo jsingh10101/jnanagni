@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b7a78</color>
+    <color name="colorPrimaryDark">#2b7a78</color>
+    <color name="colorAccent">#2b7a78</color>
+    <color name="Accent">#400D9B</color>
+
+    <color name="status_bar">#2b7a78</color>
+
+
+    <color name="bgGradientStart">#000000</color>
+    <color name="bgGradientEnd">#D8000000</color>
+
+    <color name="bgSolidDark">#55000000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="colorPrimary1">#23A7D8</color>
+    <color name="colorPrimaryDark1">#213194</color>
+    <color name="colorAccent1">#400D9B</color>
+
+    <color name="GradStart">#ffdf00</color>
+    <color name="Gradstop">#2b7a78</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="trans">#000000</color>
+
+    <color name="col">#030303</color>
+    <color name="textcol">#CEBFB7</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="primaryDark">#292b3d</color>
+    <color name="startblue">#EDFC568D</color>
+    <color name="endblue">#FAEC7C</color>
+
+</resources>

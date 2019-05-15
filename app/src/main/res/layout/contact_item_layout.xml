@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginTop="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="14dp"
+        android:clipToPadding="true"
+        android:elevation="40dp"
+        app:cardCornerRadius="30dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleView"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+
+
+            android:src="@drawable/pubg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:text="RAMAKANT SAKYA "
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:autoSizeTextType="uniform"
+            android:text="RAMAKANT0722@GMAIL.COM"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="60dp"
+            android:text="APP DEVELOPER"
+            android:textSize="12dp" />
+
+        <ImageButton
+            android:id="@+id/callbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="@color/white"
+            android:layout_marginLeft="195dp"
+            android:src="@drawable/ic_action_call" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

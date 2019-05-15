@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cse.fet.gurukul.About.AboutActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="5dp"
+            android:clipToPadding="true"
+            android:elevation="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/aisykhadijah"
+                android:text="Gurukula Kangri Vishwavidyalaya has emerged as the torch bearer among the premier technological institutions of Uttarakhand over the past 118 years. It is not just a mere institution but an academy where the cerebral and cultural erudition receptacles are interminably augmenting. With campuses in Haridwar and Dehradun, Gurukula is a pride member of Association of Indian Universities and Association of Commonwealth Universities with the status of Deemed to be University in 1962 by University Grants Commission. National Accreditation and Assessment Council (NAAC) has accredited university with A grade in 2015.
+
+\n\nJnanagni’19 is a National Level Technical-cum-Cultural Festival on behalf of Faculty of Engineering Technology, which is an effort with the message to have “Enlightenment Everywhere” - the enlightenment of knowledge, creativity and success all bundled in the fire of wisdom. \n\n Jnanagni is a celebration - a celebration of culture, technology and life. It is about realizing the inherent junction of the three in an electrifying atmosphere. It is a spectacle of our talent, aspirations, creativity and vision. Jnanagni aims to celebrate the festival of experimentation and learning.
+
+The plethora of events that Jnanagni promises offers a rich blend at music, art, dance, theatrics and numerous other fun events, Jnanagni promises an exuberant garland of cultural diversity, learning and never-ending entertainment. It will be a pleasure to have you be a part of Jnanagni through sponsorships, valuable suggestions and academic inputs. Sponsoring Jnanagni means ubiquitous reach, unprecedented mass viability and a growth of your brand equity. \n\nWe look forward to working with you in Jnanagni"
+                android:textColor="@color/colorPrimary"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

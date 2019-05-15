@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:layout_height="240dp"
+
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="15dp">
+
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout2"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+
+        app:diagonal_angle="0"
+        app:diagonal_direction="left"
+        app:diagonal_position="bottom">
+
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/Technical_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+
+        android:layout_below="@id/diagonalLayout2"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+
+        android:layout_marginRight="10dp"
+
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/Technical_title"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Apper"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

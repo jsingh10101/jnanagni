@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout tools:context="cse.fet.gurukul.Gallery.GalleryActivity"
+    android:id="@+id/gallery_swipe"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
